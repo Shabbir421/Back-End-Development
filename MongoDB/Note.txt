@@ -1,0 +1,19 @@
+data storage : aaisa kuch jaha ham sare user ki info. store karte h 
+Types : SQL|| no-SQL 
+
+SQL : data ko ek roop me rakhna - tabular for me define rahta h 
+NO-SQL : its not define in tabular form its define as object form . NO-SQL its a concept that use in mongodb is actual database theory of no-SQL 
+
+Backend : 
+1-application server = Frontend through browser we can search for any website its a req. for application server 
+2-database server = database server store the projects information and there have collection of data about the projects 
+
+Database -> collections -> documents 
+
+Code ->
+----------------------------------------------------------------
+Mongoose.connect -> database create 
+model create     -> collection 
+create           -> documents
+
+

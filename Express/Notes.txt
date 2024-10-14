@@ -1,0 +1,25 @@
+express : it is use to create server side applications. it is a framework server side application.its a npm package 
+=> framework : it define a flow of working any thing (define a route) 
+manages everything from recieve the request and give the response
+
+step 1:create folder
+step 2:npm init -y
+step 3:npm i express 
+step 4:create server.js file
+
+server live :
+1- crate own server
+const express = require("express"); //express instantiate
+const app = express();
+
+2-port of live that server 
+app.listen(3000, () => {
+  console.log("Server started on port 3000"); //server started port 3000
+});
+
+3-create routes for get request and post req works 
+app.get('/',(req,res)=>{
+res.send("Welcome to our RESTful API") //routes
+})
+
+Mongoos : express server and mongodb  connect through mongoose .Its also called ODM(obj data model) library

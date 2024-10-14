@@ -1,0 +1,30 @@
+Node js -js run time environment
+=>js se backend nahi ban sakta eske pass functionality nahi h 
+=>google chrome ka v8 engine ka code open source h and ryan dahl us code me chedhkani ki kyuki chrome ka v8 engine bana h c++ main 
+fir usne socha ki humain to js main code karna h 
+hum js ka code likhenge jo wrapper layer of js receive karegi and wo code v8  engine ke c++ modules ke sath ek server create karega
+
+nodejs is wrapper of js jabtak nodejs chalega tabtak backend banega 
+npm -> npm ek jagah hai jahan se koi bhi package le sakte hai and use kar sakte h 
+
+-> npm init -y (package initialized)
+->node filename to run the code 
+
+* Modules:
+1- file module 
+2- http module -its also rule 
+Protocol = internet per rules banaya gyaa h kuch bhi karne ke liye os me ye pre-install hote hai 
+ esi rules ka use karke internet per kuch bhi bhej sakte hai manga sakte h if not use the not send any thing
+
+
+ ** npm - node package manager 
+node js core me jo install aata h wo module kahlata hai 
+npm se download ko package kahte hai 
+
+**installing and uninstalling
+npm install packagename
+-> npm install perticular package = npm install packagename@package_version
+uninstalling -> npm uninstall packagename
+
+**dependencies- packages and packages ki dependency
+**devdependencies - aise package jo sirf development me kaam aayenge par jab app ban jayega and deploy ho jayega tab ham in package ko use nahi karenge 

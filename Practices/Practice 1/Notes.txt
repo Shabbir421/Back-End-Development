@@ -1,0 +1,22 @@
+1=> npm init -y
+2=> npm i express 
+3=> //setting up parser for form 
+app.use(express.json());
+app.use(express.urlencoded({ extended:true}));
+
+4=>npm i ejs : for ejs pages create 
+5=> setup ejs as a middlware for view engine 
+6=>  //dynamic route  :=> how to get data coming from frontend at backend routes
+
+//author/vishal
+//authoer/mukku
+//author/mote
+//author/ritik
+
+//does its not need for multiple routes for this that why use dynamic routes 
+
+example : 
+app.get("/profile/:hello/:age", function (req, res) {
+  //this is dynamic for any thing
+  res.send(`Welcome ${req.params.hello} age of ${req.params.age}`);
+});

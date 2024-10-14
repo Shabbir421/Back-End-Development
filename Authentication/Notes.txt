@@ -1,0 +1,10 @@
+Authentication = user ko profile dene se pahle verifcation check karna 
+Authorize = To perfom task which only allow or not 
+
+server har bar bhul jata h aap kon ho to har bar har kam ke liye puchega aap kon ho 
+
+Cookies = kisi user se first time authenticate karne ke baad dusri baar server ko batana nahi padta h ki ye wahi user h wo uski data ko save kar leta h and then task ke sath compile hoke info. user ka jata h and identify karta h 
+
+1) cookies set karna and read karna  
+2) bcrypt = kaise use karte h for pass encryption and decryption 
+3) jwt kya hai and jwt main data kaise store kare and bahar nikale (json web token )
